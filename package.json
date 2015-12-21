@@ -1,0 +1,25 @@
+{
+  "name": "freetransfer-api-rethinkdb",
+  "version": "0.0.1",
+  "description": "Backend API for FreeTransfer",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meteormanaged/freetransfer-api-rethinkdb.git"
+  },
+  "author": "Mike Kozak <mkozak@meteormanaged.com> (http://www.meteormanaged.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meteormanaged/freetransfer-api-rethinkdb/issues"
+  },
+  "homepage": "https://github.com/meteormanaged/freetransfer-api-rethinkdb#readme",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "express": "^4.13.3",
+    "formidable": "^1.0.17",
+    "rethinkdbdash": "^2.2.12"
+  }
+}
